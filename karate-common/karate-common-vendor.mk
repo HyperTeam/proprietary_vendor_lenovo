@@ -492,8 +492,8 @@ PRODUCT_PACKAGES += \
     CNEService \
     QtiTetherService \
     com.qualcomm.location \
-    ims \
     qcrilmsgtunnel \
+    ims \
     imssettings \
     QtiTelephonyServicelibrary \
     com.qti.location.sdk \
