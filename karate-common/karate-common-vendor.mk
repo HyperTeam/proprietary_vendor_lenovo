@@ -121,22 +121,13 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/karate-common/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
     vendor/lenovo/karate-common/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
     vendor/lenovo/karate-common/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
-    vendor/lenovo/karate-common/proprietary/lib/hw/camera.msm8937.so:system/lib/hw/camera.msm8937.so \
     vendor/lenovo/karate-common/proprietary/lib/hw/fingerprint.default.so:system/lib/hw/fingerprint.default.so \
     vendor/lenovo/karate-common/proprietary/lib/hw/lights.msm8937.so:system/lib/hw/lights.msm8937.so \
     vendor/lenovo/karate-common/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
     vendor/lenovo/karate-common/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
-    vendor/lenovo/karate-common/proprietary/lib/libarcsoft_beautyshot.so:system/lib/libarcsoft_beautyshot.so \
-    vendor/lenovo/karate-common/proprietary/lib/libarcsoft_hdr.so:system/lib/libarcsoft_hdr.so \
-    vendor/lenovo/karate-common/proprietary/lib/libarcsoft_night_shot.so:system/lib/libarcsoft_night_shot.so \
-    vendor/lenovo/karate-common/proprietary/lib/libarcsoft_panorama_burstcapture.so:system/lib/libarcsoft_panorama_burstcapture.so \
     vendor/lenovo/karate-common/proprietary/lib/libcom_fingerprints_service.so:system/lib/libcom_fingerprints_service.so \
     vendor/lenovo/karate-common/proprietary/lib/libivc_smartengine.so:system/lib/libivc_smartengine.so \
-    vendor/lenovo/karate-common/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
-    vendor/lenovo/karate-common/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
-    vendor/lenovo/karate-common/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/lenovo/karate-common/proprietary/lib/libmpbase.so:system/lib/libmpbase.so \
-    vendor/lenovo/karate-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/lenovo/karate-common/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/lenovo/karate-common/proprietary/lib64/hw/fingerprint.default.so:system/lib64/hw/fingerprint.default.so \
     vendor/lenovo/karate-common/proprietary/lib64/hw/lights.msm8937.so:system/lib64/hw/lights.msm8937.so \
