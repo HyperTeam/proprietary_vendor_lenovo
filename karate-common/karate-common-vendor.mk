@@ -16,19 +16,16 @@
 
 PRODUCT_COPY_FILES += \
     vendor/lenovo/karate-common/proprietary/bin/wcnss_service:system/bin/wcnss_service \
-    vendor/lenovo/karate-common/proprietary/etc/firmware/a530_gpmu.fw2:system/etc/firmware/a530_gpmu.fw2 \
-    vendor/lenovo/karate-common/proprietary/etc/firmware/a530_pfp.fw:system/etc/firmware/a530_pfp.fw \
-    vendor/lenovo/karate-common/proprietary/etc/firmware/a530_pm4.fw:system/etc/firmware/a530_pm4.fw \
-    vendor/lenovo/karate-common/proprietary/etc/firmware/a530v1_pfp.fw:system/etc/firmware/a530v1_pfp.fw \
-    vendor/lenovo/karate-common/proprietary/etc/firmware/a530v1_pm4.fw:system/etc/firmware/a530v1_pm4.fw \
-    vendor/lenovo/karate-common/proprietary/etc/firmware/a530v2_seq.fw2:system/etc/firmware/a530v2_seq.fw2 \
-    vendor/lenovo/karate-common/proprietary/etc/firmware/a530v3_gpmu.fw2:system/etc/firmware/a530v3_gpmu.fw2 \
-    vendor/lenovo/karate-common/proprietary/etc/firmware/a530v3_seq.fw2:system/etc/firmware/a530v3_seq.fw2 \
+    vendor/lenovo/karate-common/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
+    vendor/lenovo/karate-common/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/lenovo/karate-common/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
+    vendor/lenovo/karate-common/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
     vendor/lenovo/karate-common/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/lenovo/karate-common/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/lenovo/karate-common/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/lenovo/karate-common/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
+    vendor/lenovo/karate-common/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
+    vendor/lenovo/karate-common/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
     vendor/lenovo/karate-common/proprietary/lib/lib-imscamera.so:system/lib/lib-imscamera.so \
     vendor/lenovo/karate-common/proprietary/lib/lib-imsvideocodec.so:system/lib/lib-imsvideocodec.so \
     vendor/lenovo/karate-common/proprietary/lib/lib-imsvt.so:system/lib/lib-imsvt.so \
@@ -38,7 +35,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/karate-common/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
     vendor/lenovo/karate-common/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
     vendor/lenovo/karate-common/proprietary/lib/librcc.so:system/lib/librcc.so \
-    vendor/lenovo/karate-common/proprietary/lib/vendor.qti.gnss@1.0.so:system/lib/vendor.qti.gnss@1.0.so \
     vendor/lenovo/karate-common/proprietary/lib/vendor.qti.hardware.iop@1.0.so:system/lib/vendor.qti.hardware.iop@1.0.so \
     vendor/lenovo/karate-common/proprietary/lib/vendor.qti.hardware.perf@1.0.so:system/lib/vendor.qti.hardware.perf@1.0.so \
     vendor/lenovo/karate-common/proprietary/lib/vendor.qti.imsrtpservice@1.0.so:system/lib/vendor.qti.imsrtpservice@1.0.so \
@@ -50,8 +46,10 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/karate-common/proprietary/lib64/libdiag_system.so:system/lib64/libdiag_system.so \
     vendor/lenovo/karate-common/proprietary/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
     vendor/lenovo/karate-common/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
+    vendor/lenovo/karate-common/proprietary/lib64/liblocationservice_jni.so:system/lib64/liblocationservice_jni.so \
     vendor/lenovo/karate-common/proprietary/lib64/libparam.so:system/lib64/libparam.so \
     vendor/lenovo/karate-common/proprietary/lib64/librcc.so:system/lib64/librcc.so \
+    vendor/lenovo/karate-common/proprietary/lib64/libxt_native.so:system/lib64/libxt_native.so \
     vendor/lenovo/karate-common/proprietary/lib64/vendor.qti.gnss@1.0.so:system/lib64/vendor.qti.gnss@1.0.so \
     vendor/lenovo/karate-common/proprietary/lib64/vendor.qti.hardware.iop@1.0.so:system/lib64/vendor.qti.hardware.iop@1.0.so \
     vendor/lenovo/karate-common/proprietary/lib64/vendor.qti.hardware.perf@1.0.so:system/lib64/vendor.qti.hardware.perf@1.0.so \
@@ -72,6 +70,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/karate-common/proprietary/vendor/bin/ipacm-diag:system/vendor/bin/ipacm-diag \
     vendor/lenovo/karate-common/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
     vendor/lenovo/karate-common/proprietary/vendor/bin/loc_launcher:system/vendor/bin/loc_launcher \
+    vendor/lenovo/karate-common/proprietary/vendor/bin/lowi-server:system/vendor/bin/lowi-server \
     vendor/lenovo/karate-common/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
     vendor/lenovo/karate-common/proprietary/vendor/bin/msm_irqbalance:system/vendor/bin/msm_irqbalance \
     vendor/lenovo/karate-common/proprietary/vendor/bin/netmgrd:system/vendor/bin/netmgrd \
@@ -87,6 +86,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/karate-common/proprietary/vendor/bin/time_daemon:system/vendor/bin/time_daemon \
     vendor/lenovo/karate-common/proprietary/vendor/bin/wcnss_filter:system/vendor/bin/wcnss_filter \
     vendor/lenovo/karate-common/proprietary/vendor/bin/xtra-daemon:system/vendor/bin/xtra-daemon \
+    vendor/lenovo/karate-common/proprietary/vendor/etc/cacert_location.pem:system/vendor/etc/cacert_location.pem \
     vendor/lenovo/karate-common/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml:system/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml \
     vendor/lenovo/karate-common/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml:system/vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml \
     vendor/lenovo/karate-common/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile3.xml:system/vendor/etc/cne/wqeclient/ATT/ATT_profile3.xml \
@@ -118,6 +118,15 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/karate-common/proprietary/vendor/etc/perf/perf-profile4.conf:system/vendor/etc/perf/perf-profile4.conf \
     vendor/lenovo/karate-common/proprietary/vendor/etc/perf/perf-profile5.conf:system/vendor/etc/perf/perf-profile5.conf \
     vendor/lenovo/karate-common/proprietary/vendor/etc/perf/perf-profile6.conf:system/vendor/etc/perf/perf-profile6.conf \
+    vendor/lenovo/karate-common/proprietary/vendor/etc/xtra_root_cert.pem:system/vendor/etc/xtra_root_cert.pem \
+    vendor/lenovo/karate-common/proprietary/vendor/firmware/a530_gpmu.fw2:system/vendor/firmware/a530_gpmu.fw2 \
+    vendor/lenovo/karate-common/proprietary/vendor/firmware/a530_pfp.fw:system/vendor/firmware/a530_pfp.fw \
+    vendor/lenovo/karate-common/proprietary/vendor/firmware/a530_pm4.fw:system/vendor/firmware/a530_pm4.fw \
+    vendor/lenovo/karate-common/proprietary/vendor/firmware/a530v1_pfp.fw:system/vendor/firmware/a530v1_pfp.fw \
+    vendor/lenovo/karate-common/proprietary/vendor/firmware/a530v1_pm4.fw:system/vendor/firmware/a530v1_pm4.fw \
+    vendor/lenovo/karate-common/proprietary/vendor/firmware/a530v2_seq.fw2:system/vendor/firmware/a530v2_seq.fw2 \
+    vendor/lenovo/karate-common/proprietary/vendor/firmware/a530v3_gpmu.fw2:system/vendor/firmware/a530v3_gpmu.fw2 \
+    vendor/lenovo/karate-common/proprietary/vendor/firmware/a530v3_seq.fw2:system/vendor/firmware/a530v3_seq.fw2 \
     vendor/lenovo/karate-common/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/lenovo/karate-common/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/lenovo/karate-common/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
@@ -128,7 +137,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/karate-common/proprietary/vendor/lib/hw/gatekeeper.msm8937.so:system/vendor/lib/hw/gatekeeper.msm8937.so \
     vendor/lenovo/karate-common/proprietary/vendor/lib/hw/keystore.msm8937.so:system/vendor/lib/hw/keystore.msm8937.so \
     vendor/lenovo/karate-common/proprietary/vendor/lib/hw/sound_trigger.primary.msm8937.so:system/vendor/lib/hw/sound_trigger.primary.msm8937.so \
-    vendor/lenovo/karate-common/proprietary/vendor/lib/hw/vendor.qti.gnss@1.0-impl.so:system/vendor/lib/hw/vendor.qti.gnss@1.0-impl.so \
     vendor/lenovo/karate-common/proprietary/vendor/lib/hw/vendor.qti.hardware.iop@1.0-impl.so:system/vendor/lib/hw/vendor.qti.hardware.iop@1.0-impl.so \
     vendor/lenovo/karate-common/proprietary/vendor/lib/hw/vulkan.msm8937.so:system/vendor/lib/hw/vulkan.msm8937.so \
     vendor/lenovo/karate-common/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
@@ -206,9 +214,9 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/karate-common/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/lenovo/karate-common/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     vendor/lenovo/karate-common/proprietary/vendor/lib/libscalar.so:system/vendor/lib/libscalar.so \
-    vendor/lenovo/karate-common/proprietary/vendor/lib/libsd_sdk_display.so:system/vendor/lib/libsd_sdk_display.so \
     vendor/lenovo/karate-common/proprietary/vendor/lib/libsdm-color.so:system/vendor/lib/libsdm-color.so \
     vendor/lenovo/karate-common/proprietary/vendor/lib/libsdm-diag.so:system/vendor/lib/libsdm-diag.so \
+    vendor/lenovo/karate-common/proprietary/vendor/lib/libsdm-disp-apis.so:system/vendor/lib/libsdm-disp-apis.so \
     vendor/lenovo/karate-common/proprietary/vendor/lib/libsdmextension.so:system/vendor/lib/libsdmextension.so \
     vendor/lenovo/karate-common/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/lenovo/karate-common/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
@@ -217,6 +225,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/karate-common/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/lenovo/karate-common/proprietary/vendor/lib/libsmwrapper.so:system/vendor/lib/libsmwrapper.so \
     vendor/lenovo/karate-common/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
+    vendor/lenovo/karate-common/proprietary/vendor/lib/libtinyxml2_1.so:system/vendor/lib/libtinyxml2_1.so \
     vendor/lenovo/karate-common/proprietary/vendor/lib/libvpphvx.so:system/vendor/lib/libvpphvx.so \
     vendor/lenovo/karate-common/proprietary/vendor/lib/libvpplibrary.so:system/vendor/lib/libvpplibrary.so \
     vendor/lenovo/karate-common/proprietary/vendor/lib/libvqzip.so:system/vendor/lib/libvqzip.so \
@@ -241,7 +250,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/karate-common/proprietary/vendor/lib/rfsa/adsp/libvpp_svc_skel.so:system/vendor/lib/rfsa/adsp/libvpp_svc_skel.so \
     vendor/lenovo/karate-common/proprietary/vendor/lib/rfsa/adsp/us-syncproximity.so:system/vendor/lib/rfsa/adsp/us-syncproximity.so \
     vendor/lenovo/karate-common/proprietary/vendor/lib/sensors.ssc.so:system/vendor/lib/sensors.ssc.so \
-    vendor/lenovo/karate-common/proprietary/vendor/lib/vendor.qti.gnss@1.0_vendor.so:system/vendor/lib/vendor.qti.gnss@1.0_vendor.so \
     vendor/lenovo/karate-common/proprietary/vendor/lib/vendor.qti.hardware.iop@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.iop@1.0_vendor.so \
     vendor/lenovo/karate-common/proprietary/vendor/lib/vendor.qti.hardware.perf@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.perf@1.0_vendor.so \
     vendor/lenovo/karate-common/proprietary/vendor/lib/vendor.qti.hardware.radio.am@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.radio.am@1.0_vendor.so \
@@ -298,7 +306,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/karate-common/proprietary/vendor/lib64/libSecureUILib.so:system/vendor/lib64/libSecureUILib.so \
     vendor/lenovo/karate-common/proprietary/vendor/lib64/libStDrvInt.so:system/vendor/lib64/libStDrvInt.so \
     vendor/lenovo/karate-common/proprietary/vendor/lib64/libTimeService.so:system/vendor/lib64/libTimeService.so \
-    vendor/lenovo/karate-common/proprietary/vendor/lib64/lib_drplugin_server.so:system/vendor/lib64/lib_drplugin_server.so \
     vendor/lenovo/karate-common/proprietary/vendor/lib64/libadreno_utils.so:system/vendor/lib64/libadreno_utils.so \
     vendor/lenovo/karate-common/proprietary/vendor/lib64/libadsp_default_listener.so:system/vendor/lib64/libadsp_default_listener.so \
     vendor/lenovo/karate-common/proprietary/vendor/lib64/libadsprpc.so:system/vendor/lib64/libadsprpc.so \
@@ -343,7 +350,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/karate-common/proprietary/vendor/lib64/libmdmdetect.so:system/vendor/lib64/libmdmdetect.so \
     vendor/lenovo/karate-common/proprietary/vendor/lib64/libmm-color-convertor.so:system/vendor/lib64/libmm-color-convertor.so \
     vendor/lenovo/karate-common/proprietary/vendor/lib64/libmm-disp-apis.so:system/vendor/lib64/libmm-disp-apis.so \
-    vendor/lenovo/karate-common/proprietary/vendor/lib64/libmm-hdcpmgr.so:system/vendor/lib64/libmm-hdcpmgr.so \
     vendor/lenovo/karate-common/proprietary/vendor/lib64/libmm-qdcm.so:system/vendor/lib64/libmm-qdcm.so \
     vendor/lenovo/karate-common/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
     vendor/lenovo/karate-common/proprietary/vendor/lib64/libperfgluelayer.so:system/vendor/lib64/libperfgluelayer.so \
@@ -376,9 +382,9 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/karate-common/proprietary/vendor/lib64/librs_adreno.so:system/vendor/lib64/librs_adreno.so \
     vendor/lenovo/karate-common/proprietary/vendor/lib64/librs_adreno_sha1.so:system/vendor/lib64/librs_adreno_sha1.so \
     vendor/lenovo/karate-common/proprietary/vendor/lib64/libscalar.so:system/vendor/lib64/libscalar.so \
-    vendor/lenovo/karate-common/proprietary/vendor/lib64/libsd_sdk_display.so:system/vendor/lib64/libsd_sdk_display.so \
     vendor/lenovo/karate-common/proprietary/vendor/lib64/libsdm-color.so:system/vendor/lib64/libsdm-color.so \
     vendor/lenovo/karate-common/proprietary/vendor/lib64/libsdm-diag.so:system/vendor/lib64/libsdm-diag.so \
+    vendor/lenovo/karate-common/proprietary/vendor/lib64/libsdm-disp-apis.so:system/vendor/lib64/libsdm-disp-apis.so \
     vendor/lenovo/karate-common/proprietary/vendor/lib64/libsdmextension.so:system/vendor/lib64/libsdmextension.so \
     vendor/lenovo/karate-common/proprietary/vendor/lib64/libsecureui.so:system/vendor/lib64/libsecureui.so \
     vendor/lenovo/karate-common/proprietary/vendor/lib64/libsecureui_svcsock.so:system/vendor/lib64/libsecureui_svcsock.so \
@@ -391,7 +397,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/karate-common/proprietary/vendor/lib64/libssd.so:system/vendor/lib64/libssd.so \
     vendor/lenovo/karate-common/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
     vendor/lenovo/karate-common/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
-    vendor/lenovo/karate-common/proprietary/vendor/lib64/libuiblur.so:system/vendor/lib64/libuiblur.so \
+    vendor/lenovo/karate-common/proprietary/vendor/lib64/libtinyxml2_1.so:system/vendor/lib64/libtinyxml2_1.so \
     vendor/lenovo/karate-common/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
     vendor/lenovo/karate-common/proprietary/vendor/lib64/libvpphvx.so:system/vendor/lib64/libvpphvx.so \
     vendor/lenovo/karate-common/proprietary/vendor/lib64/libvpplibrary.so:system/vendor/lib64/libvpplibrary.so \
@@ -432,6 +438,7 @@ PRODUCT_PACKAGES += \
     QtiTelephonyService \
     ims \
     imssettings \
+    com.qualcomm.location \
     qcrilmsgtunnel \
     TimeService \
     QtiTelephonyServicelibrary \
