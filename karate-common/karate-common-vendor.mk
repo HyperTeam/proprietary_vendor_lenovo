@@ -567,10 +567,10 @@ PRODUCT_PACKAGES += \
     libts_face_beautify_hal \
     QtiTelephonyService \
     datastatusnotification \
-    ims \
     imssettings \
     CNEService \
     dpmserviceapp \
+    ims \
     qcrilmsgtunnel \
     PowerOffAlarm \
     TimeService \
