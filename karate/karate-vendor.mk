@@ -25,6 +25,10 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/karate/proprietary/vendor/etc/acdbdata/msm8937-karate-snd-card/Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/msm8937-karate-snd-card/Hdmi_cal.acdb \
     vendor/lenovo/karate/proprietary/vendor/etc/acdbdata/msm8937-karate-snd-card/Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/msm8937-karate-snd-card/Headset_cal.acdb \
     vendor/lenovo/karate/proprietary/vendor/etc/acdbdata/msm8937-karate-snd-card/Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/msm8937-karate-snd-card/Speaker_cal.acdb \
+    vendor/lenovo/karate/proprietary/vendor/etc/qdcm_calib_data_ili7807d_1080p_video_YAS.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_ili7807d_1080p_video_YAS.xml \
+    vendor/lenovo/karate/proprietary/vendor/etc/qdcm_calib_data_ili7807d_2nd_1080p_video_YAS.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_ili7807d_2nd_1080p_video_YAS.xml \
+    vendor/lenovo/karate/proprietary/vendor/etc/qdcm_calib_data_otm1901a_1080p_video_TianMa.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_otm1901a_1080p_video_TianMa.xml \
+    vendor/lenovo/karate/proprietary/vendor/etc/qdcm_calib_data_otm1901a_1080p_video_TianMa_G6.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_otm1901a_1080p_video_TianMa_G6.xml \
     vendor/lenovo/karate/proprietary/vendor/lib/libactuator_dw9767_karateof.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9767_karateof.so \
     vendor/lenovo/karate/proprietary/vendor/lib/libactuator_dw9767_karateqt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9767_karateqt.so \
     vendor/lenovo/karate/proprietary/vendor/lib/libchromatix_imx219_karateof_a3_default_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_karateof_a3_default_preview.so \
@@ -113,9 +117,3 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/karate/proprietary/vendor/lib/libmmcamera_imx219_karateof_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx219_karateof_eeprom.so \
     vendor/lenovo/karate/proprietary/vendor/lib/libmmcamera_imx219_karateqt_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx219_karateqt_eeprom.so \
     vendor/lenovo/karate/proprietary/vendor/lib/libmmcamera_imx258.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx258.so
-
-PRODUCT_PACKAGES += \
-    qdcm_calib_data_ili7807d_1080p_video_YAS \
-    qdcm_calib_data_ili7807d_2nd_1080p_video_YAS \
-    qdcm_calib_data_otm1901a_1080p_video_TianMa \
-    qdcm_calib_data_otm1901a_1080p_video_TianMa_G6

@@ -19,31 +19,3 @@
 soong_namespace {
 }
 
-prebuilt_etc_xml {
-	name: "qdcm_calib_data_ili7807d_1080p_video_YAS",
-	owner: "lenovo",
-	src: "proprietary/vendor/etc/qdcm_calib_data_ili7807d_1080p_video_YAS.xml",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
-	name: "qdcm_calib_data_ili7807d_2nd_1080p_video_YAS",
-	owner: "lenovo",
-	src: "proprietary/vendor/etc/qdcm_calib_data_ili7807d_2nd_1080p_video_YAS.xml",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
-	name: "qdcm_calib_data_otm1901a_1080p_video_TianMa",
-	owner: "lenovo",
-	src: "proprietary/vendor/etc/qdcm_calib_data_otm1901a_1080p_video_TianMa.xml",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
-	name: "qdcm_calib_data_otm1901a_1080p_video_TianMa_G6",
-	owner: "lenovo",
-	src: "proprietary/vendor/etc/qdcm_calib_data_otm1901a_1080p_video_TianMa_G6.xml",
-	soc_specific: true,
-}
-

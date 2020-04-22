@@ -19,24 +19,3 @@
 soong_namespace {
 }
 
-prebuilt_etc_xml {
-	name: "qdcm_calib_data_hx8399c_1080p_video_tm",
-	owner: "lenovo",
-	src: "proprietary/vendor/etc/qdcm_calib_data_hx8399c_1080p_video_tm.xml",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
-	name: "qdcm_calib_data_ili7807d_1080p_video_DJN",
-	owner: "lenovo",
-	src: "proprietary/vendor/etc/qdcm_calib_data_ili7807d_1080p_video_DJN.xml",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
-	name: "qdcm_calib_data_nt35596_1080p_video_tm",
-	owner: "lenovo",
-	src: "proprietary/vendor/etc/qdcm_calib_data_nt35596_1080p_video_tm.xml",
-	soc_specific: true,
-}
-

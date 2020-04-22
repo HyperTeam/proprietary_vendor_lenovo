@@ -25,6 +25,9 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/karatep/proprietary/vendor/etc/acdbdata/msm8937-karatep-snd-card/Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/msm8937-karatep-snd-card/Hdmi_cal.acdb \
     vendor/lenovo/karatep/proprietary/vendor/etc/acdbdata/msm8937-karatep-snd-card/Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/msm8937-karatep-snd-card/Headset_cal.acdb \
     vendor/lenovo/karatep/proprietary/vendor/etc/acdbdata/msm8937-karatep-snd-card/Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/msm8937-karatep-snd-card/Speaker_cal.acdb \
+    vendor/lenovo/karatep/proprietary/vendor/etc/qdcm_calib_data_hx8399c_1080p_video_tm.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_hx8399c_1080p_video_tm.xml \
+    vendor/lenovo/karatep/proprietary/vendor/etc/qdcm_calib_data_ili7807d_1080p_video_DJN.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_ili7807d_1080p_video_DJN.xml \
+    vendor/lenovo/karatep/proprietary/vendor/etc/qdcm_calib_data_nt35596_1080p_video_tm.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_nt35596_1080p_video_tm.xml \
     vendor/lenovo/karatep/proprietary/vendor/lib/libactuator_dw9767_karatepof.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9767_karatepof.so \
     vendor/lenovo/karatep/proprietary/vendor/lib/libactuator_dw9767_karatepsy.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9767_karatepsy.so \
     vendor/lenovo/karatep/proprietary/vendor/lib/libchromatix_imx219_karatepof_a3_default_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_karatepof_a3_default_preview.so \
@@ -117,8 +120,3 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/karatep/proprietary/vendor/lib/libmmcamera_imx219_karatepof_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx219_karatepof_eeprom.so \
     vendor/lenovo/karatep/proprietary/vendor/lib/libmmcamera_imx219_karatepqt_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx219_karatepqt_eeprom.so \
     vendor/lenovo/karatep/proprietary/vendor/lib/libmmcamera_s5k3p3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k3p3.so
-
-PRODUCT_PACKAGES += \
-    qdcm_calib_data_hx8399c_1080p_video_tm \
-    qdcm_calib_data_ili7807d_1080p_video_DJN \
-    qdcm_calib_data_nt35596_1080p_video_tm
