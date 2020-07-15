@@ -614,7 +614,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/karate-common/proprietary/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/qcril.db
 
 PRODUCT_PACKAGES += \
-    libbtconfigstore \
     libsdm-disp-vndapis \
     libthermalclient \
     libMpeg4SwEncoder \
